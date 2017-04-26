@@ -1,6 +1,6 @@
 # npmtest-tether
 
-#### basic test coverage for  tether (v1.4.0)  [![npm package](https://img.shields.io/npm/v/npmtest-tether.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tether) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tether.svg)](https://travis-ci.org/npmtest/node-npmtest-tether)
+#### basic test coverage for  [tether (v1.4.0)](https://github.com/HubSpot/tether#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tether.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tether) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tether.svg)](https://travis-ci.org/npmtest/node-npmtest-tether)
 
 #### A client-side library to make absolutely positioned elements attach to elements in the page efficiently.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tether/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tether/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tether/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tether/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tether/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tether/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tether/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tether/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tether/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tether/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tether/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tether/build/coverage.html/index.html)
 
@@ -35,28 +35,15 @@
 ```json
 
 {
-    "name": "tether",
-    "version": "1.4.0",
-    "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
     "authors": [
         "Zack Bloom <zackbloom@gmail.com>",
         "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
     ],
-    "maintainers": [
-        "Nicholas Hwang <nick.joosung.hwang@gmail.com>",
-        "Trevor Burnham <trevorburnham@gmail.com>"
-    ],
-    "scripts": {
-        "reinstall": "del node_modules && npm install",
-        "watch": "gulp watch",
-        "build": "gulp build"
+    "bugs": {
+        "url": "https://github.com/HubSpot/tether/issues"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/HubSpot/tether.git"
-    },
-    "license": "MIT",
-    "main": "dist/js/tether.js",
+    "dependencies": {},
+    "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
     "devDependencies": {
         "del": "^2.0.2",
         "del-cli": "^0.2.0",
@@ -72,7 +59,40 @@
         "gulp-sass": "^2.0.4",
         "gulp-uglify": "^1.4.1",
         "gulp-wrap-umd": "^0.2.1"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "0f9fa171f75bf58485d8149e94799d7ae74d1c1a",
+        "tarball": "https://registry.npmjs.org/tether/-/tether-1.4.0.tgz"
+    },
+    "gitHead": "3d7119e590661f8c9e9e566c8a7640c189687215",
+    "homepage": "https://github.com/HubSpot/tether#readme",
+    "license": "MIT",
+    "main": "dist/js/tether.js",
+    "maintainers": [
+        {
+            "name": "hs"
+        },
+        {
+            "name": "timmfin"
+        },
+        {
+            "name": "zackbloom"
+        }
+    ],
+    "name": "tether",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HubSpot/tether.git"
+    },
+    "scripts": {
+        "build": "gulp build",
+        "reinstall": "del node_modules && npm install",
+        "watch": "gulp watch"
+    },
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
